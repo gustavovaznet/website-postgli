@@ -69,9 +69,6 @@ Postgli Marketing Website.
     <td>
 			<img width="618" src="https://user-images.githubusercontent.com/98855318/153240351-2a18a7e4-5428-4d6e-a525-4c76afc26602.png">
 		</td>
-    <td>
-			<img width="618" src="https://user-images.githubusercontent.com/98855318/153240350-ec818bb4-84e8-4f6e-aeb8-5a157b35f84c.png">
-		</td>
 	</tr>
 </table>
 
