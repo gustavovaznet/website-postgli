@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="a7d3150c-9c68-43bd-aca4-f6d2cdd1583f"
+   data-name="Layer 1"
+   viewBox="0 0 1426 1198"
+   version="1.1"
+   sodipodi:docname="service-icon-06.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata215">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="775"
+     inkscape:window-height="480"
+     id="namedview213"
+     showgrid="false"
+     inkscape:zoom="0.19699499"
+     inkscape:cx="713"
+     inkscape:cy="599"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="a7d3150c-9c68-43bd-aca4-f6d2cdd1583f" />
+  <defs
+     id="defs206">
+    <style
+       id="style204">.bd99ea77-1dc8-4619-8c9f-070a0b961422{fill:#f9d542;}</style>
+  </defs>
+  <circle
+     class="bd99ea77-1dc8-4619-8c9f-070a0b961422"
+     cx="713"
+     cy="599"
+     r="489.14"
+     id="circle208"
+     style="fill:#5555ff;fill-opacity:1" />
+  <path
+     d="M1174.27,1006l-296-296c49.13-65.56,78.61-146.64,78.61-234.67,0-216.49-176.11-392.59-392.59-392.59S171.73,258.83,171.73,475.32s176.1,392.59,392.59,392.59c88,0,169.11-29.48,234.67-78.61l296,296ZM209.12,475.32c0-195.87,159.33-355.2,355.2-355.2s355.2,159.33,355.2,355.2-159.34,355.2-355.2,355.2S209.12,671.18,209.12,475.32ZM836.64,757.48q5-4.83,9.82-9.82c2.73-2.82,5.68-5.42,8.32-8.32L1121.4,1006,1095,1032.42,828.34,765.78C831.24,763.14,833.82,760.19,836.64,757.48Z"
+     id="path210" />
+</svg>
