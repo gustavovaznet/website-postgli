@@ -1,0 +1,178 @@
+//GLOBAL CSS STYLES
+
+@import url('https://use.typekit.net/nev1unp.css');
+
+//TAILWIND
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply antialiased font-body box-border;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold tracking-tight mb-2;
+  }
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+  h2 {
+    @apply text-3xl md:text-5xl lg:text-5xl;
+  }
+  h3 {
+    @apply text-2xl md:text-3xl lg:text-4xl;
+  }
+  h4 {
+    @apply text-xl md:text-2xl lg:text-3xl;
+  }
+  h5 {
+    @apply text-lg md:text-xl lg:text-2xl;
+  }
+  h6 {
+    @apply text-sm md:text-base lg:text-xl;
+  }
+  p {
+    @apply text-base text-gray-900 mb-4 leading-relaxed;
+  }
+  input,
+  textarea {
+    @apply w-full bg-white border-gray-500 appearance-none border p-4 font-light leading-tight focus:outline-none;
+  }
+  label {
+    @apply font-bold;
+  }
+
+  /* HEADER TEXT */
+  .em {
+    @apply text-blue not-italic;
+  }
+
+  /* LIST STYLES */
+  .list {
+    @apply list-disc ml-6 leading-loose;
+  }
+
+  /* NAVIGATION */
+  .h-nav {
+    @apply mr-4
+      md:mx-4
+      py-1
+      leading-8
+      text-gray-600
+      border-transparent
+      border-b-2
+      transition-colors duration-500
+      hover:text-white
+      hover:border-blue;
+  }
+
+  /* VERTICAL NAVIGATION */
+  .v-nav {
+    @apply mb-0
+      leading-8
+      text-gray-600
+      border-transparent
+      border-b-2
+      transition-colors duration-500
+      hover:text-white
+      hover:border-blue
+      focus:outline-none
+      flex-shrink
+      inline-flex;
+  }
+}
+
+//BTN COMPONENT
+@layer components {
+  .btn-blue {
+    @apply py-4 px-8
+      transition duration-500 ease-in-out 
+      border-2 border-blue
+      bg-blue
+      text-black
+      font-semibold rounded-full shadow-md
+      transform      
+      hover:bg-white
+      hover:border-white
+      focus:outline-none
+      focus:ring-2
+      focus:ring-gray-200
+      focus:ring-opacity-75;
+  }
+}
+@layer components {
+  .btn-blue-2 {
+    @apply py-4 px-8
+      transition duration-500 ease-in-out 
+      border-2 border-blue
+      bg-blue
+      text-black
+      font-semibold rounded-full
+      transform
+      hover:bg-black
+      hover:border-black
+      hover:text-white
+      focus:outline-none
+      focus:ring-2
+      focus:ring-gray-200
+      focus:ring-opacity-75;
+  }
+}
+@layer components {
+  .btn-blue-2-sm {
+    @apply mt-2
+      mb-4
+      py-3 px-5
+      transition duration-500 ease-in-out 
+      border-2 border-blue
+      bg-blue
+      text-black
+      font-semibold rounded-full
+      transform
+      hover:bg-black
+      hover:border-black
+      hover:text-white
+      focus:outline-none
+      focus:ring-2
+      focus:ring-gray-200
+      focus:ring-opacity-75;
+  }
+}
+@layer components {
+  .btn-blue-2-xs {
+    @apply mt-2
+      mb-4
+      py-2 px-3
+      text-sm
+      capitalize
+      transition duration-500 ease-in-out 
+      border-2 border-blue
+      bg-blue
+      text-black
+      font-semibold rounded-full
+      transform
+      hover:bg-black
+      hover:border-black
+      hover:text-white
+      focus:outline-none
+      focus:ring-2
+      focus:ring-gray-200
+      focus:ring-opacity-75;
+  }
+}
+@layer components {
+  .btn-gray-outline {
+    @apply py-4 px-8
+      transition duration-500 ease-in-out
+      border-2 border-gray-400 text-gray-400
+      font-semibold rounded-full shadow-md 
+      transform 
+      opacity-100 hover:bg-gray-400 hover:text-white focus:bg-gray-400 focus:text-white focus:ring-2 focus:ring-gray-900 focus:ring-opacity-75;
+  }
+}
